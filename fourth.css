@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(5, 5, 41);
+    background-size: cover;
+    font-family: sans-serif;
+}
+header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+label.head{
+    color: gold;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: cursive;
+    font-weight: bold;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+li {
+    display: inline;
+    line-height: 40px;
+    margin: 0 5px;
+    padding: 1rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+quote{
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bold;
+}
+.donate h2{
+    color: gold;
+    font-family: cursive;
+    font-weight: bold;
+}
+.donate p{
+    color: white;
+    font-family: cursive;
+    margin: 0;
+}
+.donate img{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    width: 500px;
+    height: 200px;
+    flex: 0 0 150px;
+}
+.a img, .c img, .e img{
+    float: right;
+}
+.b img, .d img{
+    float: left;
+}
+showcase .form{
+    position: absolute;
+    top: 268%;
+    left: 20%;
+    right: 20%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align:center;
+}
+input{
+    width: 45%;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: none;
+}
+button{
+    background-color: green;
+    width: 20%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.form h2{
+    color: gold;
+    font-family: cursive;
+}
+.form p{
+    color: white;
+    font-family: cursive;
+}
